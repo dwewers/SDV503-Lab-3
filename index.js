@@ -69,10 +69,13 @@
   }
   }
 
+  //Part below doesnt work yet
 
+/*
+result_description = test_result <=39 ? "fail" : '';
+result_description = test_result <=59 ? "pass" : '';
+result_description = test_result <=74 ? "merit" : '';
+result_description = test_result <=100 ? "Disitinction" : '';
 
-  //________PART_2_OF_LESSON______________________
-
-
-  
+console.log(result_description);*/
 
