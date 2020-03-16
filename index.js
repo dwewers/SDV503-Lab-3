@@ -77,7 +77,16 @@ result_description = test_result <=100 ? "Disitinction" : '';
 console.log(result_description);*/
 
 //Part 2 Homework
+
 let dayTime = false;
 let nightTime = true;
 let Light = dayTime ? "bright" : nightTime ? "Dark" : "";
 console.log(Light);
+
+//Below is a different way to write the previous example
+let light = {
+  dayTime: true,
+  nightTime: null
+};
+light.nightTime = light.dayTime ? "no" : "yes";
+console.log(light);
