@@ -1,55 +1,56 @@
   // var test_result;
-  const score = 25;
+  const score = 44;
+  var test_result;
 
 
   switch (true) {
   case  score <= 100 && score >= 85:{
-  var test_result = "A+";
+  let test_result = "A+";
   console.log(test_result);
   break;
   }
   case score <= 84 && score >= 80 :{
-  var test_result = "A";
+  let test_result = "A";
   console.log(test_result);
   break;
   }
   case score <= 79 && score >= 75 :{
-  test_result = "A-";
+  let test_result = "A-";
   console.log(test_result);
   break;
   }
   case score <= 74 && score >= 70: {
-  test_result = "B+";
+  let test_result = "B+";
   console.log(test_result);
   break;
   }
   case score <= 69 && score >= 65: {
-  test_result = "B";
+  let test_result = "B";
   console.log(test_result);
   break;
   }
   case score <= 64 && score >= 60: {
-  test_result = "B-";
+  let test_result = "B-";
   console.log(test_result);
   break;
   }
   case score <= 59 && score >= 55: {
-  test_result = "C+";
+  let test_result = "C+";
   console.log(test_result);
   break;
   }
   case score <= 54 && score >= 50: {
-  test_result = "C";
+  let test_result = "C";
   console.log(test_result);
   break;
   }
   case score <= 49 && score >= 40: {
-  test_result = "D";
+  let test_result = "D";
   console.log(test_result);
   break;
   }
   case score <= 39 && score >= 0: {
-  var test_result = "E";
+  let test_result = "E";
   console.log(test_result);
   break;
   }
@@ -63,7 +64,7 @@
   else if (test_result <=59 && test_result >= 50){
   console.log("Distinction");
   }
-  else (test_result <=49){
+  else {
   console.log("Fail");
   }
   }
