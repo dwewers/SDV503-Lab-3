@@ -59,14 +59,20 @@
   console.log("Distinction");
   }
   else if (test_result <=74 && test_result >= 60){
-  console.log("Distinction");
+  console.log("Merit");
   }
   else if (test_result <=59 && test_result >= 50){
-  console.log("Distinction");
+  console.log("Pass");
   }
   else {
   console.log("Fail");
   }
   }
 
+
+
+  //________PART_2_OF_LESSON______________________
+
+
+  
 
